@@ -1,5 +1,6 @@
 import React from 'react';
 import { Whiteboard } from './components/Whiteboard';
+import { Cursors } from './components/Cursors';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <p className="text-sm text-gray-500">Start drawing!</p>
       </div>
       <Whiteboard />
+      <Cursors />
     </div>
   );
 }
