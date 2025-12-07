@@ -16,7 +16,7 @@ export const ydoc = new Y.Doc();
 // Create a WebSocket provider to sync with the server
 // Room name: 'whiteboard' (all users in this room see the same canvas)
 export const provider = new WebsocketProvider(
-    'ws://localhost:3000', // WebSocket server URL
+    'ws://localhost:4000', // WebSocket server URL
     'whiteboard',          // Room name
     ydoc
 );
