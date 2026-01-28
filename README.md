@@ -51,9 +51,6 @@ npm run dev:client
 npm run dev:server
 ```
 
-The client will be available at `http://localhost:5173/`
-The server will run on `http://localhost:3000/`
-
 ## Development Roadmap
 See [roadmap.md](.gemini/antigravity/brain/870e8559-0360-451a-b93e-32dbac2dfca8/roadmap.md) for detailed development phases.
 
